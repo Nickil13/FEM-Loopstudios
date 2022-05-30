@@ -13,24 +13,49 @@
         />
 
         <title>Frontend Mentor | Loopstudios landing page</title>
+
+        <!--  Google Fonts -->
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header>
-            <nav>
-                <ul class="nav-btns">
-                    <li>About</li>
-                    <li>Careers</li>
-                    <li>Events</li>
-                    <li>Products</li>
-                    <li>Support</li>
-                </ul>
-            </nav>
-            <div class="hero">
-                <h1 class="hero__title">Immersive experiences that deliver</h1>
+            <div class="container">
+                <nav>
+                    <img
+                        class="nav-logo"
+                        src="images/logo.svg"
+                        alt="loopstudios logo"
+                    />
+                    <img
+                        class="nav-menu-icon"
+                        src="images/icon-hamburger.svg"
+                        alt="hamburger menu icon"
+                    />
+                    <ul class="nav-btns">
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Events</li>
+                        <li>Products</li>
+                        <li>Support</li>
+                    </ul>
+                </nav>
+                <div class="hero">
+                    <div class="hero__title-box">
+                        <h1 class="hero__title">
+                            Immersive experiences that deliver
+                        </h1>
+                    </div>
+                </div>
             </div>
         </header>
         <main>
-            <section>
+            <section class="about-section">
                 <img src="" alt="" />
                 <div class="section__content">
                     <h2 class="section__title">The leader in interactive VR</h2>
@@ -43,7 +68,7 @@
                     </p>
                 </div>
             </section>
-            <section>
+            <section class="creations-section">
                 <h2 class="section__title">Our creations</h2>
                 <button class="section__btn">See all</button>
                 <div class="creations-list">

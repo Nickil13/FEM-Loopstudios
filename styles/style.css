@@ -16,6 +16,8 @@
     --ff-secondary: "Josefin Sans", sans-serif;
 
     --fs-h1: 2.25rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.5rem;
     --fs-body: 0.9375rem;
 }
 
@@ -35,6 +37,12 @@ ul {
 h1 {
     font-size: var(--fs-h1);
 }
+h2 {
+    font-size: var(--fs-h2);
+}
+h3 {
+    font-size: var(--fs-h3);
+}
 h1,
 h2,
 h3 {
@@ -45,6 +53,13 @@ h3 {
 p {
     font-size: var(--fs-body);
     line-height: 1.6rem;
+}
+a {
+    text-decoration: none;
+}
+a:link,
+a:visited {
+    color: var(--clr-neutral);
 }
 li {
     font-size: var(--fs-body);
@@ -84,6 +99,9 @@ nav {
 }
 .nav-btns > li:not(:first-child) {
     margin-left: 2rem;
+}
+.nav-menu-icon {
+    cursor: pointer;
 }
 
 .hero {
@@ -131,21 +149,22 @@ nav {
 
 /* Main */
 main {
-    margin: 5rem 0;
+    margin: 6rem 0;
 }
 section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     text-align: center;
 }
 .section__title {
     color: var(--clr-neutral-dark);
-    margin: 2rem 0 1rem 0;
+    margin: 3rem 0 1rem 0;
 }
 .section__text {
     color: var(--clr-gray-dark);
 }
 .section__img {
+    display: block;
     width: 100%;
     height: 100%;
 }
@@ -156,32 +175,40 @@ section {
 
 /***** Our Creations *****/
 .creations-list {
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 }
 .creations-item {
     position: relative;
     min-height: 100px;
 }
 .creations-item:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+.creations-item__title-box {
+    position: absolute;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent);
+    height: 100%;
+    width: 100%;
 }
 .creations-item__title {
     position: absolute;
-    left: 0;
     bottom: 0;
-    z-index: 1;
+    left: 0;
     padding: 1rem;
     color: var(--clr-neutral);
-    max-width: 5ch;
+    opacity: 0.8;
+    max-width: 11ch;
+    text-align: start;
 }
 
 .section__btn {
     padding: 0.5rem 2rem;
-    border: 1px solid var(--clr-neutral-dark);
+    border: 2px solid var(--clr-neutral-dark);
     background-color: transparent;
+    font-weight: bold;
     font-family: var(--ff-primary);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     cursor: pointer;
 }
 
@@ -193,6 +220,21 @@ footer {
     color: var(--clr-neutral);
     padding: 3rem 0;
 }
+.footer-copyright {
+    margin-top: 1rem;
+    color: var(--clr-gray-dark);
+}
 .footer-links {
     padding: 2rem 0;
+    text-align: center;
+}
+.footer-links > li:not(last-child) {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+}
+.social-links > li {
+    margin: 0 0.5rem;
 }

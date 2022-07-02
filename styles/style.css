@@ -320,6 +320,18 @@ section {
     .about-section .section__content {
         position: absolute;
         right: 0px;
+        bottom: -20px;
+        width: 545px;
+        text-align: start;
+        background-color: var(--clr-neutral);
+        padding: 1rem 0 0 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-section .section__content {
+        position: absolute;
+        right: 0px;
         bottom: -2px;
         width: 545px;
         text-align: start;

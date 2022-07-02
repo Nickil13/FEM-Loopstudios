@@ -25,24 +25,32 @@
     </head>
     <body>
         <nav>
+            <div class="nav-menu-background"></div>
             <div class="container">
                 <img
                     class="logo"
                     src="./images/logo.svg"
                     alt="loopstudios logo"
                 />
-                <img
-                    class="nav-menu-icon"
-                    src="./images/icon-hamburger.svg"
-                    alt="hamburger menu icon"
-                />
-                <ul class="nav-btns">
-                    <li>About</li>
-                    <li>Careers</li>
-                    <li>Events</li>
-                    <li>Products</li>
-                    <li>Support</li>
-                </ul>
+                <button class="nav-menu-icon">
+                    <img
+                        src="./images/icon-hamburger.svg"
+                        alt="hamburger menu icon"
+                    />
+                </button>
+                <button class="nav-close-menu-icon">
+                    <img src="./images/icon-close.svg" alt="close icon" />
+                </button>
+
+                <div class="nav-menu">
+                    <ul class="nav-btns">
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Events</li>
+                        <li>Products</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="hero">
@@ -58,19 +66,19 @@
         <main>
             <section class="about-section">
                 <div class="container">
-                    <div class="img-container">
-                        <picture>
-                            <source
-                                media="(min-width: 800px)"
-                                srcset="./images/desktop/image-interactive.jpg"
-                            />
-                            <img
-                                class="section__img"
-                                src="./images/mobile/image-interactive.jpg"
-                                alt="man with VR headset"
-                            />
-                        </picture>
-                    </div>
+                    <!-- <div class="img-container"> -->
+                    <picture>
+                        <source
+                            media="(min-width: 800px)"
+                            srcset="./images/desktop/image-interactive.jpg"
+                        />
+                        <img
+                            class="section__img"
+                            src="./images/mobile/image-interactive.jpg"
+                            alt="man with VR headset"
+                        />
+                    </picture>
+                    <!-- </div> -->
 
                     <div class="section__content">
                         <h2 class="section__title">
@@ -303,5 +311,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/Nickil13">Nickil13</a>.
   </div> -->
+        <script src="script.js"></script>
     </body>
 </html>

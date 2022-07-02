@@ -29,25 +29,28 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [GitHub](https://github.com/Nickil13/FEM-Loopstudios)
 -   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--   CSS Grid
 -   Mobile-first workflow
+-   BEM
 
 ### What I learned
 
+I learned to pay close attention to images for overlays. I spotted the difference in the Our Creations section and initially missed the overlay in the header.
+
+I also got some practice with my mobile menu, adding a small fade-in animation and making sure it closed when the viewport expanded.
+
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+-   More animations
+-   Improving BEM skills
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@Nickil13](https://www.frontendmentor.io/profile/Nickil13)
